@@ -68,3 +68,6 @@ class Minesweeper:
     def restart(self) -> None:
         """ Restart the game with the same parameters. """
         self.__init__(self.rows, self.cols, self.num_mines)
+
+def test_fail():
+    assert False
